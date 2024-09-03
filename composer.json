@@ -1,0 +1,22 @@
+{
+  "name": "mrp/puzzle-1",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Denis Zhadan"
+    }
+  ],
+  "require": {
+    "php": "~8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MRP\\Puzzle\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.4.1"
+  }
+}
